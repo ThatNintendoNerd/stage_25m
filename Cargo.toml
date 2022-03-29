@@ -1,6 +1,6 @@
 [package]
 name = "stage_25m"
-version = "1.0.0"
+version = "1.1.0"
 authors = ["ThatNintendoNerd <>"]
 edition = "2018"
 
@@ -12,7 +12,7 @@ crate-type = ["cdylib"]
 
 [dependencies]
 skyline = { git = "https://github.com/ultimate-research/skyline-rs.git" }
-skyline_smash = { git = "https://github.com/ultimate-research/skyline-smash.git" }
+smash = { git = "https://github.com/blu-dev/smash-rs.git" }
 
 [profile.dev]
 panic = "abort"
